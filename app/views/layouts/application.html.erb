@@ -12,8 +12,11 @@
 </head>
 
 <body>
-  <%= link_to "Products", products_path %>
+  <%= link_to "Products", products_path %> |
+  <%= link_to "Github", 'https://github.com/gacurl/shoplifm', target: :_blank %>
   <hr>
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
   <%= yield %>
 </body>
 
